@@ -2,6 +2,10 @@
 
 A React and Tailwind CSS project comparing Context API, Redux Toolkit, and Zustand using the same shopping cart feature.
 
+## Screenshot
+
+![React State Management Comparison app screenshot](./project-screenshot.png)
+
 ## Run Locally
 
 ```bash
