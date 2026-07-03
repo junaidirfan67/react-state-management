@@ -5,8 +5,9 @@ export const products = [
     category: "Desk Gear",
     price: 25,
     description: "A compact mouse with quiet clicks and a smooth scroll wheel.",
-    visual:
-      "linear-gradient(135deg, #dbeafe 0%, #f8fafc 48%, #bfdbfe 100%)",
+    image:
+      "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?auto=format&fit=crop&w=900&q=80",
+    imageAlt: "Black wireless computer mouse on a dark surface.",
   },
   {
     id: 2,
@@ -14,8 +15,9 @@ export const products = [
     category: "Desk Gear",
     price: 72,
     description: "Tactile keys, sturdy frame, and a tidy tenkeyless layout.",
-    visual:
-      "linear-gradient(135deg, #dcfce7 0%, #f8fafc 50%, #bbf7d0 100%)",
+    image:
+      "https://images.unsplash.com/photo-1640268296919-d105766cb6b1?auto=format&fit=crop&w=900&q=80",
+    imageAlt: "Black mechanical keyboard on a dark tabletop.",
   },
   {
     id: 3,
@@ -23,8 +25,9 @@ export const products = [
     category: "Adapters",
     price: 39,
     description: "Connect displays, storage, and power through one slim hub.",
-    visual:
-      "linear-gradient(135deg, #fef3c7 0%, #f8fafc 52%, #fde68a 100%)",
+    image:
+      "https://images.unsplash.com/photo-1619459072761-496c0812331b?auto=format&fit=crop&w=900&q=80",
+    imageAlt: "USB-C adapter and cable on a clean desk setup.",
   },
   {
     id: 4,
@@ -32,8 +35,9 @@ export const products = [
     category: "Audio",
     price: 119,
     description: "Comfortable over-ear headphones for focused work sessions.",
-    visual:
-      "linear-gradient(135deg, #fee2e2 0%, #f8fafc 50%, #fecaca 100%)",
+    image:
+      "https://images.unsplash.com/photo-1628202926206-c63a34b1618f?auto=format&fit=crop&w=900&q=80",
+    imageAlt: "Black over-ear headphones photographed on a dark background.",
   },
   {
     id: 5,
@@ -41,8 +45,9 @@ export const products = [
     category: "Workspace",
     price: 45,
     description: "Raises your screen and folds flat when you pack up.",
-    visual:
-      "linear-gradient(135deg, #e0e7ff 0%, #f8fafc 48%, #c7d2fe 100%)",
+    image:
+      "https://images.unsplash.com/photo-1623251606108-512c7c4a3507?auto=format&fit=crop&w=900&q=80",
+    imageAlt: "Laptop elevated on a stand in a modern workspace.",
   },
   {
     id: 6,
@@ -50,7 +55,8 @@ export const products = [
     category: "Lighting",
     price: 58,
     description: "Adjustable brightness with a clean, low-profile base.",
-    visual:
-      "linear-gradient(135deg, #ccfbf1 0%, #f8fafc 48%, #99f6e4 100%)",
+    image:
+      "https://images.unsplash.com/photo-1519219788971-8d9797e0928e?auto=format&fit=crop&w=900&q=80",
+    imageAlt: "Desk lamp on a tidy work surface.",
   },
 ];

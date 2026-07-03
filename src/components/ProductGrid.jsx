@@ -25,20 +25,14 @@ export function ProductGrid({ products, onAddToCart }) {
             key={product.id}
             className="overflow-hidden rounded-lg border border-slate-200 bg-white shadow-sm"
           >
-            <div
-              className="relative flex h-32 items-center justify-center border-b border-slate-200"
-              style={{ background: product.visual }}
-            >
-              <div className="grid h-16 w-28 grid-cols-4 gap-1 rounded-md border border-white/80 bg-white/60 p-2 shadow-sm backdrop-blur">
-                <span className="rounded-sm bg-slate-400/40" />
-                <span className="rounded-sm bg-slate-500/40" />
-                <span className="rounded-sm bg-slate-400/40" />
-                <span className="rounded-sm bg-slate-500/40" />
-                <span className="rounded-sm bg-slate-500/40" />
-                <span className="rounded-sm bg-slate-400/40" />
-                <span className="rounded-sm bg-slate-500/40" />
-                <span className="rounded-sm bg-slate-400/40" />
-              </div>
+            <div className="relative h-40 overflow-hidden border-b border-slate-200 bg-slate-200">
+              <img
+                src={product.image}
+                alt={product.imageAlt}
+                className="h-full w-full object-cover transition duration-300 hover:scale-105"
+                loading="lazy"
+              />
+              <div className="absolute inset-x-0 top-0 h-20 bg-gradient-to-b from-slate-950/45 to-transparent" />
               <span className="absolute left-3 top-3 rounded-md bg-white/90 px-2.5 py-1 text-xs font-semibold text-slate-700 shadow-sm">
                 {product.category}
               </span>
